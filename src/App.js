@@ -9,13 +9,14 @@ import {
 import SearchTour from './SearchTour';
 import About from './About';
 import Contact from './Contact';
-import logo from './Logo.png';
-import iconFB from './icons8-facebook-50.png';
-import iconInsta from './icons8-instagram-50.png';
-import iconLink from './icons8-link-50.png';
-import iconWA from './icons8-whatsapp-50.png';
+import logo from './assets/Logo.png';
+import iconFB from './assets/icons8-facebook-50.png';
+import iconInsta from './assets/icons8-instagram-50.png';
+import iconLink from './assets/icons8-link-50.png';
+import iconWA from './assets/icons8-whatsapp-50.png';
 import Alert from './Alert';
 import HomePage from './homePage';
+import Footer from './Footer';
 
 function App() {
   return <div className='main'>
@@ -45,6 +46,7 @@ function App() {
         </Routes>
       </Router>
     </div>
+    <Footer/>
 </div>
 }
 export default App;

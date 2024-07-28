@@ -28,9 +28,9 @@ const Filter = ({ countriesList = [] }) => {
       <RandomCountry/>
       <div className="countries-grid">
         {filteredCountries.length > 0 ? (
-          filteredCountries.map((country, index) => (
+          filteredCountries.map((country, id) => (
             <Countries 
-              key={index} 
+              key={id} 
               src={country.src} 
               alt={country.name} 
               text={country.text} 

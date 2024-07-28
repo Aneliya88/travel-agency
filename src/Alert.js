@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import Swal from 'sweetalert2';
-import image from './Logo.png'
+import image from './assets/Logo.png'
 
 function Alert() {
     useEffect(() => {
@@ -16,9 +16,7 @@ function Alert() {
         });
       }, []);
   return (
-    <div>
-
-    </div>
+ null
   );
 }
 export default Alert;

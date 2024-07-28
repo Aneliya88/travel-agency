@@ -1,4 +1,3 @@
-import Footer from "./Footer";
 import Review from "./Review";
 
 function About () {
@@ -67,8 +66,7 @@ function About () {
                 </div>
             </div>
         </div>
-        <Footer/>
-        </div>
+    </div>
     )
 }
 export default About;

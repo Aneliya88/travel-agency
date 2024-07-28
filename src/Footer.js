@@ -1,7 +1,7 @@
-import iconFB from './icons8-facebook-50.png';
-import iconInsta from './icons8-instagram-50.png';
-import iconLink from './icons8-link-50.png';
-import iconWA from './icons8-whatsapp-50.png';
+import iconFB from './assets/icons8-facebook-50.png';
+import iconInsta from './assets/icons8-instagram-50.png';
+import iconLink from './assets/icons8-link-50.png';
+import iconWA from './assets/icons8-whatsapp-50.png';
 function Footer () {
     return (
     <div className='footer'>

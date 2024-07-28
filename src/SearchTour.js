@@ -1,34 +1,33 @@
-import Footer from "./Footer";
-import Argentina from "./argentina.jpg";
-import Australia from "./australia.jpg";
-import Bahamas from "./bahamas.jpg";
-import Brazil from "./brazil.jpg";
-import Canada from "./canada.jpg";
-import China from "./china.jpg";
-import Colombia from "./colombia.jpg";
-import CostaRica from "./costa rica.jpg";
-import Dominican from "./dominican.jpg";
-import Egypt from "./egypt.jpg";
-import France from "./france.jpg";
-import Greece from "./greece.jpg";
-import HongKong from "./hong kong.jpg";
-import India from "./india.jpg";
-import Indonesia from "./indonesia.jpg";
-import Israel from "./israel.jpg";
-import Italy from "./italy.jpg";
-import Japan from "./japan.jpg";
-import Korea from "./korea.jpg";
-import Malaysia from "./malaysia.jpg";
-import Mexico from "./mexico.jpg";
-import Morocco from "./morocco.jpg";
-import Qatar from "./qatar.jpg";
-import Singapore from "./singapore.jpg";
-import Spain from "./spain.jpg";
-import Thailand from "./thailand.jpg";
-import Turkey from "./turkey.jpg";
-import UAE from "./uae.jpg";
-import USA from "./USA.jpg";
-import Vietnam from "./vietnam.jpg";
+import Argentina from "./assets/argentina.jpg";
+import Australia from "./assets/australia.jpg";
+import Bahamas from "./assets/bahamas.jpg";
+import Brazil from "./assets/brazil.jpg";
+import Canada from "./assets/canada.jpg";
+import China from "./assets/china.jpg";
+import Colombia from "./assets/colombia.jpg";
+import CostaRica from "./assets/costa rica.jpg";
+import Dominican from "./assets/dominican.jpg";
+import Egypt from "./assets/egypt.jpg";
+import France from "./assets/france.jpg";
+import Greece from "./assets/greece.jpg";
+import HongKong from "./assets/hong kong.jpg";
+import India from "./assets/india.jpg";
+import Indonesia from "./assets/indonesia.jpg";
+import Israel from "./assets/israel.jpg";
+import Italy from "./assets/italy.jpg";
+import Japan from "./assets/japan.jpg";
+import Korea from "./assets/korea.jpg";
+import Malaysia from "./assets/malaysia.jpg";
+import Mexico from "./assets/mexico.jpg";
+import Morocco from "./assets/morocco.jpg";
+import Qatar from "./assets/qatar.jpg";
+import Singapore from "./assets/singapore.jpg";
+import Spain from "./assets/spain.jpg";
+import Thailand from "./assets/thailand.jpg";
+import Turkey from "./assets/turkey.jpg";
+import UAE from "./assets/uae.jpg";
+import USA from "./assets/USA.jpg";
+import Vietnam from "./assets/vietnam.jpg";
 import Filter from "./Filter";
 
 const countriesList = [
@@ -67,7 +66,6 @@ const countriesList = [
     return (
       <div>
         <Filter countriesList={countriesList} />
-        <Footer />
       </div>
     );
   }

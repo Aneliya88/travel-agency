@@ -1,9 +1,9 @@
 import React, { useState } from 'react';
-import ReviewOne from './otzyv.jpg';
-import ReviewTwo from './otzyv1.jpg';
-import ReviewThree from './otzyv2.jpg';
-import ReviewFour from './otzyv3.jpg';
-import ReviewFive from './otzyv4.jpg';
+import ReviewOne from './assets/otzyv.jpg';
+import ReviewTwo from './assets/otzyv1.jpg';
+import ReviewThree from './assets/otzyv2.jpg';
+import ReviewFour from './assets/otzyv3.jpg';
+import ReviewFive from './assets/otzyv4.jpg';
 
 const imageList = [
   { src: ReviewOne, text: '"We are still awe-struck by all the amazing scenes we were shown and we are still in love with our tour manager. She was an absolute delight! Her great personality and easy going style made it so much easier to enjoy the trip." Ms. Heidi Corona' },
