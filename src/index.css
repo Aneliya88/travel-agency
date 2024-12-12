@@ -6,8 +6,88 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.App {
+  display: flex;
+  justify-content: space-around;
+}
+body {
+  background-color: #161616
+}
+.block {
+  padding: 20px;
+}
+.countriesCategory {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 10px;
+  padding: 10px;
+}
+.imgTour {
+  width: 300px;
+  height: 400px;
+}
+.cartIcon {
+  width: 70px;
+}
+.categoryButton:hover {
+  background-color: #64dd64;
+}
+.tour {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 0 1 calc(33.33% - 16px);
+  box-sizing: border-box;
+  background-color: rgb(42, 117, 101);
+  padding: 20px;
+  border-radius: 10px;
+}
+.tourName, .tourButton  {
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.tour h2,
+.tour p,
+.tour button {
+  margin: 5px;
+}
+.tourButton {
+border: none;
+padding: 10px;
+border-radius: 10px;
+}
+.tours {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+  padding: 10px;
+}
+.categoryButtonSelected:hover {
+  background-color: green;
+}
+.icon {
+  width: 20px;
+}
+p, h1, h2, button {
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+.cart {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.iconCart {
+  width: 20px;
+}
+button {
+  background-color: #06462b;
+  margin-top: 40px;
+  margin-left: 10px;
 }

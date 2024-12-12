@@ -1,38 +1,304 @@
-.App {
+body {
+  margin: 0px;
+  background: url(./assets/background.png);
+  background-repeat: no-repeat;
+}
+.header {
+ display: flex;
+  justify-content: space-evenly; 
+ margin-top: 40px;
+ width: 100%;
+}
+.btnsReviews {
+  display: flex;
+}
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.navItem {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  padding: 10px;
+  color: black;
+}
+.logo {
+  width: 300px;
+}
+.icon {
+  width: 20px;
+  margin-right: 70px;
+}
+.home {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+.homeImg {
+  width: 600px;
+}
+.leftRow, .rightRow {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+}
+h1, h2, h3, p {
+  font-family: "Montserrat", sans-serif;
+  color: black;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.footerText {
+  font-family: "Island Moments", cursive;
+  font-size: 50px;
+  margin-bottom: 30px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+h6 {
+  color: gray;
+  margin-top: 100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+}
+.iconF {
+  width: 30px;
+  margin-right: 20px;
+  margin-top: 100px;
+}
+.iconH {
+  width: 20px;
+  margin-right: 75px;
+}
+.countries {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+  width: 350px;
+  border-radius: 10px;
+  background-color: rgba(58, 96, 16, 50%);
+  margin: 20px;
+}
+.imgCountry {
+  border-radius: 10px;
+}
+.textCountry {
+  font-weight: bolder;
+  font-size: 20px;
+}
+.countriesList {
+  display: flex;
+  justify-content: space-evenly;
+  flex-flow: row wrap;
+}
+.countries-grid {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  gap: 16px; 
+}
+.myInput {
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #3A6010;
+  background-color: #D6D3D3;
+  width: 50%;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+.searchAndRandom {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 30px;
+}
+.imgCountry {
+  width: 350px; 
+  height: 490px; 
+}
+.btnRandom {
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #3A6010;
+  background-color: #D6D3D3;
+  width: 51.5%;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+}
+.random {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.image-switcher {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+.imgReview {
+  width: 700px;
+  height: 430px;
+  border-radius: 10px;
+}
+.imgTextReview {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(58, 96, 16, 50%);
+  width: 700px;
+}
+.btnSwitcher {
+  border-radius: 10px 0 0 10px;
+  background-color: #3A6010;
+  color: #fff;
+  width: 345px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
+.btnSwitcherNext {
+  border-radius: 0 10px 10px 0;
+  background-color: #3A6010;
+  color: #fff;
+  width: 345px;
+  border: none;
+  padding: 10px;
+  margin: 5px;
+}
+.recieve {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgba(58, 96, 16, 50%);
+  border-radius: 10px;
+  margin: 30px;
+}
+.recieveRow {
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.recieveText {
+  margin: 30px;
+  width: 500px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.contactData {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  font-size: 20px;
+  margin-top: 15px;
+}
+@media all and (max-width:1400px) {
+.homeImg {
+  width: 500px;
+  align-self: center;
+}
+h1, h2, h3, p {
+  font-size: smaller;
+}
+}
+@media all and (max-width:1200px) {
+  .homeImg {
+    width: 400px;
   }
-  to {
-    transform: rotate(360deg);
+  h1, h2, h3, p {
+    font-size: smaller;
   }
-}
+  .leftRow, .rightRow {
+    width: 400px;
+  }
+  .navItem {
+    font-size: 15px;
+  }
+  .icon {
+    width: 18px;
+    margin-right: 50px;
+  }
+  .logo {
+    width: 250px;
+  }
+  .myInput {
+    padding: 5px;
+    width: 50%;
+    font-size: 15px;
+  }
+  .countries, .imgCountry {
+    width: 300px;
+  }
+  .imgCountry {
+    height: 440px;
+  }
+  .btnRandom {
+    padding: 5px;
+    width: 51.5%;
+    font-size: 15px;
+  }
+  .recieveRow {
+    display: flex;
+    flex-direction: column;
+  }
+  .recieveText {
+    margin: 5px;
+    width: auto;
+  }
+  }
+  @media all and (max-width:1000px) {
+    nav, .icons {
+      display: flex;
+      flex-direction: column;
+    }
+    .icon {
+      padding: 8px;
+    }
+    .iconF {
+      width: 15px;
+      margin-right: 0;
+    }
+  }
+  @media all and (max-width:850px) {
+    .logo {
+      width: 150px;
+      height: 100px;
+    }
+    .homeImg, .leftRow, .rightRow {
+      width: 350px;
+    }
+    .imgReview {
+      width: 450px;
+      height: 300px;
+    }
+    .imgTextReview {
+      width: 450px;
+    }
+    .btnSwitcher, .btnSwitcherNext {
+      width: 225px;
+    }
+  }
+  @media all and (max-width:700px) {
+    .homeImg, .leftRow, .rightRow {
+      width: 200px;
+    }
+    .imgReview {
+      width: 350px;
+      height: 200px;
+    }
+    .imgTextReview {
+      width: 350px;
+    }
+    .btnSwitcher, .btnSwitcherNext {
+      width: 171px;
+    }
+  }
