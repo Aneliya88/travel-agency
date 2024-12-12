@@ -5,9 +5,15 @@ import { getCartItems, getTotalPrice } from "../../redux/cartSlice";
 const Cart = () => {
     const cartItems = useSelector(getCartItems);
     const totalPrice = useSelector(getTotalPrice);
-    return (<div>
-        <h3>Total: ${totalPrice}</h3>
-        {cartItems.map(cartItem => <CartItem cartItem={cartItem}/>)}
-    </div>)
+
+    return (
+        <div>
+            <h3>Total: ${totalPrice}</h3>
+            {cartItems.map((cartItem, index) => (
+                <CartItem key={cartItem.id || index} cartItem={cartItem} />
+            ))}
+        </div>
+    );
 }
+
 export default Cart;
